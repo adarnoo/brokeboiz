@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: courier;
+  font-size: 1vw;
+}
+
+image {
+  width: 100%;
+}
+
+.bb-marquee-container {
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  width: 20%;
+  z-index: 2;
+}
+
+.bb-image {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  width: 10%;
+  z-index: 2;
+}
+
+.bb-logo-container {
+  position: absolute;
+  width: 20%;
+  top: 2%;
+  margin: 0 40%;
+}
+
+.bb-logo {
+  width: 100%;
+}
+
+.bb-terms-container {
+  position: absolute;
+  width: 40%;
+  top: 25%;
+  margin: 0% 30%;
+  z-index: 1;
+  padding-bottom: 100px;
+}
+
+.bb-footer-container{
+  position: fixed;
+  width: 80%;
+  bottom: 2%;
+  margin: 0% 10%;
+  background-color: white;
+}
+
+.bb-footer {
+  text-align: center;
+  float: left;
+}
+
+.bb-footer--left {
+  width: 33.3%;
+}
+
+.bb-footer--middle {
+  width: 33.3%;
+}
+
+.bb-footer--right {
+  width: 33.3%;
+}
