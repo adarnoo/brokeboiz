@@ -135,3 +135,62 @@ a:visited {
 .bb-footer--right {
   width: 33.3%;
 }
+
+/* Mobile View */
+
+@media only screen and (max-width: 375px) {
+
+  .bb-marquee-container {
+    position: fixed;
+    top: 2%;
+    left: 10%;
+    width: 80%;
+    z-index: 2;
+    font-size: 3vw;
+  }
+
+  .bb-image {
+    display: none;
+  }
+
+  .bb-product-container-one {
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    margin: 0% 10%;
+    background-color: white;
+  }
+
+  .bb-product-container-two {
+    position: absolute;
+    width: 80%;
+    top: 850px;
+    margin: 0% 10%;
+    background-color: white;
+  }
+
+  .bb-product-container-three {
+    position: absolute;
+    width: 80%;
+    top: 1650px;
+    margin: 0% 10%;
+    padding-bottom: 100px;
+    background-color: white;
+  }
+
+  .bb-product {
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+  }
+
+  .bb-product--back {
+    display: none;
+  }
+
+  .bb-product--front:hover {
+    opacity: 1;
+  }
+
+}
