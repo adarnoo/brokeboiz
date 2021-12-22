@@ -1,9 +1,12 @@
 body {
+  position: relative;
   margin: 0;
   width: 100%;
   height: 100%;
   font-family: courier;
   font-size: 1vw;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 
 image {
@@ -29,18 +32,35 @@ a:visited {
 
 .bb-image {
   position: fixed;
-  top: 2%;
+  top: 0%;
   right: 2%;
   width: 10%;
-  z-index: 2;
+  z-index: 3;
 }
 
-.bb-product-container {
+.bb-product-container-one {
   position: absolute;
   width: 80%;
   top: 15%;
   margin: 0% 10%;
+  background-color: white;
+}
+
+.bb-product-container-two {
+  position: absolute;
+  width: 80%;
+  top: 60%;
+  margin: 0% 10%;
+  background-color: white;
+}
+
+.bb-product-container-three {
+  position: absolute;
+  width: 80%;
+  top: 105%;
+  margin: 0% 10%;
   padding-bottom: 100px;
+  background-color: white;
 }
 
 .bb-product {
@@ -50,8 +70,41 @@ a:visited {
   width: 33.3%;
 }
 
+.bb-product--front {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
+.bb-product--back {
+  position: absolute;
+  z-index: 1;
+}
+
+.bb-product--front:hover {
+  opacity: 0;
+}
+
+.bb-product--left {
+  left: 0;
+}
+
+.bb-product--middle {
+  left: 33.33%;
+}
+
+.bb-product--right{
+  left: 66.66%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  margin: 0;
+}
+
 .bb-footer-container{
-  position: fixed;
   width: 80%;
   bottom: 2%;
   margin: 0% 10%;
