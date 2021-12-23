@@ -84,3 +84,41 @@ a:visited {
 .bb-footer--right {
   width: 33.3%;
 }
+
+/* Mobile View */
+
+@media only screen and (min-device-width: 320px) and
+(max-device-width: 480px) and
+(-webkit-min-device-pixel-ratio: 2) {
+
+  .bb-marquee-container {
+    position: fixed;
+    top: 2%;
+    width: 80%;
+    margin: 0 10%;
+    z-index: 2;
+    font-size: 3vw;
+  }
+
+  .bb-product-display {
+    position: relative;
+    top: 40%;
+    width: 80%;
+    margin: 0% 10%;
+    left: 0%;
+  }
+
+  .bb-product-text {
+    position: absolute;
+    width: 80%;
+    top: 8%;
+    margin: 0 10%;
+    left: 0;
+    font-size: 3vw;
+    padding-bottom:
+  }
+
+  .bb-image {
+    display: none;
+  }
+}
