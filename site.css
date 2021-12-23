@@ -22,79 +22,11 @@ a:visited {
   color: black;
 }
 
-.bb-marquee-container {
-  position: fixed;
-  top: 2%;
-  left: 2%;
-  width: 20%;
-  z-index: 2;
-}
-
 .bb-image {
   position: fixed;
-  top: 0%;
-  right: 2%;
-  width: 10%;
-  z-index: 3;
-}
-
-.bb-product-container-one {
-  position: absolute;
-  width: 80%;
   top: 15%;
-  margin: 0% 10%;
-  background-color: white;
-}
-
-.bb-product-container-two {
-  position: absolute;
-  width: 80%;
-  top: 60%;
-  margin: 0% 10%;
-  background-color: white;
-}
-
-.bb-product-container-three {
-  position: absolute;
-  width: 80%;
-  top: 105%;
-  margin: 0% 10%;
-  padding-bottom: 100px;
-  background-color: white;
-}
-
-.bb-product {
-  position: relative;
-  float: left;
-  display: block;
-  width: 33.3%;
-}
-
-.bb-product--front {
-  position: relative;
-  z-index: 2;
-  background-color: white;
-}
-
-.bb-product--back {
-  position: absolute;
-  z-index: 1;
-}
-
-.bb-product--front:hover {
-  opacity: 0;
-}
-
-.bb-product--left {
-  left: 0;
-}
-
-.bb-product--middle {
-  left: 33.33%;
-}
-
-.bb-product--right{
-  left: 66.66%;
+  width: 40%;
+  margin: 0 30%;
 }
 
 .bb-content {
@@ -106,35 +38,6 @@ a:visited {
   min-height: 100vh;
 }
 
-.footer {
-  position: absolute;
-  bottom: -70%;
-  width: 100%;
-  height: 2.5rem;
-}
-
-.bb-footer-container{
-  width: 80%;
-  bottom: 2%;
-  margin: 0% 10%;
-}
-
-.bb-footer {
-  text-align: center;
-  float: left;
-}
-
-.bb-footer--left {
-  width: 33.3%;
-}
-
-.bb-footer--middle {
-  width: 33.3%;
-}
-
-.bb-footer--right {
-  width: 33.3%;
-}
 
 /* Mobile View */
 
@@ -142,66 +45,11 @@ a:visited {
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
 
-  .bb-marquee-container {
-    position: fixed;
-    top: 2%;
-    left: 10%;
-    width: 80%;
-    z-index: 2;
-    font-size: 3vw;
-  }
-
   .bb-image {
-    display: none;
-  }
-
-  .bb-product-container-one {
-    position: absolute;
-    width: 80%;
-    top: 25%;
-    margin: 0% 10%;
-    background-color: white;
-  }
-
-  .bb-product-container-two {
-    position: absolute;
-    width: 80%;
-    top: 40%;
-    margin: 0% 10%;
-    background-color: white;
-  }
-
-  .bb-product-container-three {
-    position: absolute;
-    width: 80%;
-    top: 55%;
-    margin: 0% 10%;
-    padding-bottom: 100px;
-    background-color: white;
-  }
-
-  .bb-product {
-    position: relative;
-    float: left;
-    display: block;
-    width: 33.33%;
-  }
-
-  .bb-product--back {
-    display: none;
-  }
-
-  .bb-product--front:hover {
-    opacity: 1;
-  }
-
-  .footer {
-    position: absolute;
-    bottom: 2%;
-    width: 100%;
-    height: 1rem;
-    font-size: 3vw;
-
+    position: fixed;
+    top: 20%;
+    width: 50%;
+    margin: 0 25%;
   }
 
 }
