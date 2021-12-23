@@ -107,10 +107,11 @@ a:visited {
 }
 
 .footer {
-  position: absolute;
-  bottom: -70%;
+  position: fixed;
+  bottom: 2%;
   width: 100%;
   height: 2.5rem;
+  z-index: 10;
 }
 
 .bb-footer-container{
@@ -144,7 +145,7 @@ a:visited {
 
   .bb-marquee-container {
     position: fixed;
-    top: 2%;
+    top: 2.5%;
     left: 10%;
     width: 80%;
     z-index: 2;
@@ -152,7 +153,11 @@ a:visited {
   }
 
   .bb-image {
-    display: none;
+    position: fixed;
+    top: -2.5%;
+    right: 5%;
+    width: 20%;
+    z-index: 3;
   }
 
   .bb-product-container-one {
@@ -196,8 +201,8 @@ a:visited {
   }
 
   .footer {
-    position: absolute;
-    bottom: 2%;
+    position: fixed;
+    bottom: 5%;
     width: 100%;
     height: 1rem;
     font-size: 3vw;
